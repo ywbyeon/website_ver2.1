@@ -12,6 +12,10 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+  <h2>In Process</h2>
+  {% bibliography -f {{ site.scholar.bibliography }} -q @unpublished %}
+
+  <h2>Published</h2>
+  {% bibliography -f {{ site.scholar.bibliography }} -q @article %}
 
 </div>

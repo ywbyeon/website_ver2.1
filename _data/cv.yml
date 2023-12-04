@@ -3,95 +3,130 @@
   contents:
     - name: Full Name
       value: Young-Woon Byeon
-    - name: Date of Birth
-      value: September 29th, 1988
     - name: Languages
       value: Korean, English
+    # - name: Date of Birth
+    #   value: September 29th, 1988
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Materials Science and Engineering
-      institution: Korea University, <br>Seoul, South Korea
+      institution: Korea University
+      location: Seoul, Korea
       year: "Feb. 2020"
       description:
         - "Thesis title: Studies of sodiation behaviors in Sn anodes using <i>in situ</i> electron microscopy"
         - "Advisor: Prof. Jae-Chul Lee"
     - title: B.S. in Materials Sciences and Engineering
-      institution: Korea University, <br>Seoul, South Korea
+      institution: Korea University
+      location: Seoul, Korea
       year: "Aug. 2013"
-      description:
-        - "Advisor: Prof. Ho Jang"
 
-- title: Work Experiences
+- title: Work Experience
   type: time_table
   contents:
     - title: Senior Research Scientist
-      institution: Advanced Analysis and Data Center, <br>Korea Institute of Science and Technology (KIST), <br>Seoul, South Korea
       year: Nov. 2023<br>  - Present
+      location: Seoul, Korea
+      institution: Korea Institute of Science and Technology (KIST)
+      department: Head of the TEM group, Advanced Analysis and Data Center
+      description:
+        - Developing advanced EM techniques for energy storage materials applications.
+        - Investigations on the materials/interfacial degradation behaviors.<br>(e.g. solid-state electrolytes and composite electrodes)
  
-    - title: Postdoctoral Research Scholar
-      institution: Materials Sciences Division, <br>Lawrence Berkeley National Laboratory (LBNL), <br>Berkeley, CA, United States
+    - title: Postdoctoral Research Employee
       year: Mar. 2020<br>  - Oct. 2023
+      location: Berkeley, CA,<br>United States
+      institution: Lawrence Berkeley National Laboratory (LBNL)
+      department: Materials Sciences Division
       description:
         - "Investigated the buried interphases between a solid-state electrolyte and a metal anode, based on the one of the most advanced TEM in the world: TEAM I in NCEM LBNL."
         - "Developed an airtight sample transfer system to characterize air-sensitive materials."
-        - "3D STEM/FIB tomography on the bio-nanomaterials using diatom frustules."
+        - "3-dimensional FIB/STEM tomography on the bio-nanomaterials using diatom frustules."
         - "Systematically synthesized and characterized on the high-performance oxide catalyst support materials for PEMFC applications."
 
     - title: Research Assistant (RA)
-      institution: Advanced Analysis Center, <br>Korea Institute of Science and Technology (KIST), <br>Seoul, Korea
       year: May. 2013<br>  - Feb. 2020
+      location: Seoul, Korea
+      institution: Korea Institute of Science and Technology (KIST)
+      department: Advanced Analysis Center
       description:
         - Developed an airtight sample transfer system to characterize air-sensitive materials.
         - Pioneered the correlative analysis of battery electrode materials by using various analytical instruments (XRD, XPS, SEM, TEM, EDS, EELS, and APT).
         - Observed the formation and growth behavior of SEI layer during fast charging/discharging.
 
-    - title: Teaching Assistant (TA)
-      institution: Department of Materials Sciences of Engineering, <br>Korea University, <br>Seoul, Korea
-      year: Mar. 2014<br> - Mar. 2017
-      description:
-        - "Course offering: Engineering Mathematics II (2017); Mechanical Properties of Materials (2015); Metallic Material Processing (2014); Engineering Mathematics I (2014)"
-
     - title: Undergraduate Intern
-      institution: Research Laboratory, Battelle-Korea, Seoul, Korea
+      institution: Battelle-Korea Institute
       year: Jan. 2012<br> - Feb. 2012
+      location: Seoul, Korea
+      department: Research Laboratory
 
-    - title: Sergeant (honorable discharged)
-      institution: Education & Training Command, Republic of Korea Air Force, Jinju, Korea
-      year: 2009 - 2011
+    - title: Sergeant <i>(honorable discharged)</i>
+      institution: Republic of Korea Air Force
+      department: Education and Training Command
+      year: Mar. 2009<br> - Apr. 2011
+      location: Jinju, Korea
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Mentorships
+      year: 2017 - 2020
+      maindescription: Mentoring graduate/undergraduate students in the lab
+
+    - title: Training visiting students from Dongduk Girl's High School
+      year: 2018
+
+    - title: Teaching Assistant
+      year: 2014 - 2017
+      institution: Korea University
+      department: Department of Materials Sciences of Engineering
+      maindescription: "Offered Courses:"
+      description:
+        - TA in Mechanical Properties of Materials
+        - TA in Metallic Material Processing
+        - TA in Engineering Mathematics I
+
+- title: Service and Outreach Experiences
+  type: map
+  contents:
+    - name: Member
+      value: Electrochemical Society (Since 2022)
+      link: ""
+    - name: Member
+      value: Materials Research Society (Since 2018)
+      link: ""
+    - name: Member 
+      value: Korean Society of Metals and Materials (Since 2014)
+      link: ""
+    - name: Member
+      value: Korean Society of Microscopy (Since 2014)
+      link: ""
+    - name: Member
+      value: Korean American Scientists and Engineers Association (KSEA) (2020-2023)
+      link: ""
+    - name: President
+      value: KSEA Berkeley Local Chapter (2021-2023)
+    - name: Journal Reviewer
+      value: "<i>Materials Today Energy</i>; <i>Electrochimica Acta</i>; <i>ACS Applied Materials and Interfaces</i>; <i>Applied Sciences</i>; <i>Materials</i>; <i>International Journal of Molecular Sciences</i>; <i>Molecules</i>; <i>Batteries</i>; <i>Energies</i>"
 
 - title: Honors and Awards
   type: time_table
   contents:
     - [Add award details here in the format of year and award name]
 
-- title: Proficiency
-  type: nested_list
-  contents:
-    - [Add your proficiency details here]
-
 - title: Patents
   type: list
   contents:
-    - Shape-controlled multi-pod nanowire structure for direct methanol fuel cell application and preparation method thereof
+    - Shape-controlled multi-pod nanowire structure for direct methanol fuel cell application and preparation method thereof, <i><b>KR Patent:</b> 1014211040000</i> (2014)
 
 - title: Publications
   type: list
   contents:
     - [List out the publications]
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - [Add any relevant projects]
-
 - title: Academic Interests
   type: nested_list
   contents:
     - [List out your academic interests]
-
-- title: Other Interests
-  type: list
-  contents:
-    - [List your hobbies and other interests]

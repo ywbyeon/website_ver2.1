@@ -6,6 +6,9 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 nav_order: 1
 ---
+
+***†: equal contribution, *: corresponding author***
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
